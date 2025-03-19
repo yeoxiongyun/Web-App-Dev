@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='style.css'>
+  <title> Weather Web App </title> <!-- this is tab text -->
+</head>
+
+<body>
+  <!-- <span class='msg'> random message </span> -->
+  <h1 class='page-title'>Weather</h1>
+
+  <div class='card'>
+    <div class='search'>
+      <input type='text' placeholder='Enter City Name' spellcheck='false'>
+      <button><img img-dynamic-src='search.png'> </button>
+    </div>
+    <div class='error'>
+      <p> Invalid city or country name </p>
+    </div>
+    
+    <div class='weather'>
+      <img img-dynamic-src='sunny.png' class='weather-icon'>
+      <h1 class='temp'> 28°C </h1>
+      <h2 class='city'> Malaysia </h2>
+      <div class='details'>
+
+        <div class='col'>
+          <img img-dynamic-src='humidity.png'>
+          <div>
+            <p class='humidity'>50%</p>
+            <p> Humidity </p>
+          </div>
+        </div>
+
+        <div class='col'>
+          <img img-dynamic-src='wind.png'>
+          <div>
+            <p class='wind'>15 km/h</p>
+            <p> Wind Speed </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src='weather.js'></script>
+
+</body>
+
+</section>
+<footer class='page-footer'>
+  <div class='container'>
+    <small>Demo by <a href='https://github.com/yeoxiongyun' target='_blank'>Xiong Yun (•̀⤙•́)</a>
+    </small>
+  </div>
+</footer>
+
+</html>

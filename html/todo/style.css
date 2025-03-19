@@ -1,0 +1,145 @@
+/* HTML CSS 
+
+   JS Result Skip Results Iframe
+/* RESET STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  /* --bg_main: #0a1f44;
+  --text_light: #fff;
+  --text_med: #53627c;
+  --text_dark: #1e2432;
+  --red: #ff1e42;
+  --darkred: #c3112d;
+  --orange: #ff8c00; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #ff5945;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 40px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  background: transparent; /* none */
+  outline: none;
+  /* color: inherit; */
+  padding: 10px; /* NA */
+  font-weight: 14px;
+}
+
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
+
+/*–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* body {
+  font: 1rem/1.3 'Roboto', sans-serif;
+  background: var(--bg_main);
+  background: #222;
+  background: #4f32ff;
+  color: var(--text_dark);
+  padding: 70px;
+} */
+
+.container {
+  width: 100%;
+  min-height: 100vh; /*  viewport height (1vh = 1% of the browser window’s height) */
+  /* margin: 0 auto; */
+  padding: 10px;
+  /* position: center; */
+  background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+.todo-app {
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+}
+
+.todo-app h2 {
+  color: #002765;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+.todo-app h2 img {
+  width: 60px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+ul li {
+  list-style: none;
+  font-size: 17px;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+  position: relative;
+  cursor: pointer;
+}
+ul li::before {
+  content: '';
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  border-radius: 30%;
+  background-image: url('../../images/unchecked.png'); /* Attribute: <a href="https://www.flaticon.com/free-icons/unchecked" title="unchecked icons">Unchecked icons created by Pixa_icons - Flaticon</a> */
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px
+}
+ul li.checked {
+  color: #555;
+  text-decoration: line-through;
+}
+ul li.checked:before {
+  background-image: url('../../images/checked.png'); /* Attribute: <a href="https://www.flaticon.com/free-icons/check" title="check icons">Check icons created by Dave Gandy - Flaticon</a> */
+}
+
+ul li span {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #555;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+ul li span:hover {
+  background: #b7b9bd;
+}
