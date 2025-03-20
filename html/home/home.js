@@ -27,16 +27,16 @@ observer.observe(document.body, { childList: true, subtree: true });
 
 document.addEventListener('DOMContentLoaded', () => {
     const projects = [
-        { name: 'cv', url: '../CV_web_app.html', image: `${IMAGES_DIR}fog.png` },
         { name: 'weather', url: '../weather/weather.html', image: `${IMAGES_DIR}cloudy.png` },
         { name: 'todo', url: '../todo/todo.html', image: `${IMAGES_DIR}todo.png` },
-        { name: 'cv', url: '../CV_web_app.html', image: `${IMAGES_DIR}unknown.png` },
+        { name: 'quiz', url: '../quiz/quiz.html', image: `${IMAGES_DIR}unknown.png` },
         { name: 'weather', url: '../weather/weather.html', image: `${IMAGES_DIR}wind.png` },
         { name: 'cv', url: '../CV_web_app.html', image: `${IMAGES_DIR}humidity.png` },
         { name: 'weather', url: '../weather/weather.html', image: `${IMAGES_DIR}lightning.png` },
         { name: 'cv', url: '../CV_web_app.html', image: `${IMAGES_DIR}search.png` },
         { name: 'weather', url: '../weather/weather.html', image: `${IMAGES_DIR}cloudy.png` },
-        { name: 'cv', url: '../CV_web_app.html', image: `${IMAGES_DIR}sunny.png` }
+        { name: 'cv', url: '../CV_web_app.html', image: `${IMAGES_DIR}sunny.png` },
+        { name: 'cv', url: '../CV_web_app.html', image: `${IMAGES_DIR}fog.png` }
     ];
 
     // Carousell
