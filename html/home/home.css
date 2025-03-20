@@ -5,7 +5,7 @@
   --text_light: #fff;
   --text_med: #53627c;
   --text_dark: #1e2432; */
-  --button-grey: #edeef5;
+  --button-grey: #edeef0;
   --red: #ff1e42;
   --darkred: #c3112d;
   --orange: #ff8c00;
@@ -201,7 +201,7 @@ body {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   padding: 15px;
-  min-height: 400px;
+  min-height: 30vh;
   box-shadow: 0 8px 32px rgba(0, 100, 0, 0.2);
   cursor: pointer; 
 }
