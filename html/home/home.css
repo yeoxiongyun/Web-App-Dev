@@ -18,29 +18,29 @@
 
 @font-face {
   font-family: 'TheGoodPlace';
-  src: url('../../fonts/brandon-grotesque-regular.otf') format('opentype');
+  src: url('/fonts/brandon-grotesque-regular.otf') format('opentype');
   font-weight: normal; 
   font-style: normal;
 }
 @font-face {
   font-family: 'TheGoodPlace';
-  src: url('../../fonts/brandon-grotesque-medium.otf') format('opentype');
+  src: url('/fonts/brandon-grotesque-medium.otf') format('opentype');
   font-weight: medium;
 }
 @font-face {
   font-family: 'TheGoodPlace';
-  src: url('../../fonts/brandon-grotesque-medium-italic.otf') format('opentype');
+  src: url('/fonts/brandon-grotesque-medium-italic.otf') format('opentype');
   font-weight: medium;
   font-style: italic;
 }
 @font-face {
   font-family: 'TheGoodPlace';
-  src: url('../../fonts/brandon-grotesque-bold.otf') format('opentype');
+  src: url('/fonts/brandon-grotesque-bold.otf') format('opentype');
   font-weight: bold;
 }
 @font-face {
   font-family: 'TheGoodPlace';
-  src: url('../../fonts/brandon-grotesque-bold-italic.otf') format('opentype');
+  src: url('/fonts/brandon-grotesque-bold-italic.otf') format('opentype');
   font-weight: bold;
   font-style: italic;
 }
@@ -230,7 +230,7 @@ footer {
 /* IMAGES */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .picture1 {
-  background-image: url('../../images/wallpaper.jpg');
+  background-image: url('/images/wallpaper.jpg');
   background-size: cover; /* covers the entire section */
   background-position: center; /* centers the image within the section */
   height: 100vh; /* Makes the section take the full viewport height */
