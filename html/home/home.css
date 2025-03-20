@@ -18,29 +18,29 @@
 
 @font-face {
   font-family: 'TheGoodPlace';
-  src: url('/fonts/brandon-grotesque-regular.otf') format('opentype');
+  src: url('../../fonts/brandon-grotesque-regular.otf') format('opentype');
   font-weight: normal; 
   font-style: normal;
 }
 @font-face {
   font-family: 'TheGoodPlace';
-  src: url('/fonts/brandon-grotesque-medium.otf') format('opentype');
+  src: url('../../fonts/brandon-grotesque-medium.otf') format('opentype');
   font-weight: medium;
 }
 @font-face {
   font-family: 'TheGoodPlace';
-  src: url('/fonts/brandon-grotesque-medium-italic.otf') format('opentype');
+  src: url('../../fonts/brandon-grotesque-medium-italic.otf') format('opentype');
   font-weight: medium;
   font-style: italic;
 }
 @font-face {
   font-family: 'TheGoodPlace';
-  src: url('/fonts/brandon-grotesque-bold.otf') format('opentype');
+  src: url('../../fonts/brandon-grotesque-bold.otf') format('opentype');
   font-weight: bold;
 }
 @font-face {
   font-family: 'TheGoodPlace';
-  src: url('/fonts/brandon-grotesque-bold-italic.otf') format('opentype');
+  src: url('../../fonts/brandon-grotesque-bold-italic.otf') format('opentype');
   font-weight: bold;
   font-style: italic;
 }
@@ -201,7 +201,7 @@ body {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   padding: 15px;
-  min-height: 400px;
+  min-height: 30vh;
   box-shadow: 0 8px 32px rgba(0, 100, 0, 0.2);
   cursor: pointer; 
 }
@@ -230,7 +230,7 @@ footer {
 /* IMAGES */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .picture1 {
-  background-image: url('/images/wallpaper.jpg');
+  background-image: url('../../images/wallpaper.jpg');
   background-size: cover; /* covers the entire section */
   background-position: center; /* centers the image within the section */
   height: 100vh; /* Makes the section take the full viewport height */
