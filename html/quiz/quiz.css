@@ -139,13 +139,3 @@ body {
 }
 /* IMAGES */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.picture1 {
-  background-image: url('../../images/wallpaper.jpg');
-  background-size: cover; /* covers the entire section */
-  background-position: center; /* centers the image within the section */
-  height: 100vh; /* Makes the section take the full viewport height */
-  color: white; /* adjust the text color to ensure it’s readable on the background */
-  display: flex; /* centers text */
-  justify-content: center; /* centers horizontally */
-  align-items: center; /* centers vertically */
-}
