@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'quiz', url: '../quiz/quiz.html', image: `${IMAGES_DIR}unknown.png` },
         { name: 'password', url: '../password/password.html', image: `${IMAGES_DIR}password.png` },
         { name: 'notes', url: '../notes/notes.html', image: `${IMAGES_DIR}notes.png` },
-        { name: 'weather', url: '../weather/weather.html', image: `${IMAGES_DIR}lightning.png` },
+        { name: 'qr-code', url: '../qr-code/qr-code.html', image: `${IMAGES_DIR}qr-code.png` },
         { name: 'cv', url: '../CV_web_app.html', image: `${IMAGES_DIR}search.png` },
         { name: 'weather', url: '../weather/weather.html', image: `${IMAGES_DIR}cloudy.png` },
         { name: 'cv', url: '../CV_web_app.html', image: `${IMAGES_DIR}sunny.png` },

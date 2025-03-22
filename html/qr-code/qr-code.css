@@ -1,0 +1,129 @@
+/* HTML CSS */
+
+/* FONTS */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* normal weight == font-weight: 400; */
+/* medium weight == font-weight: 500; */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+:root {
+  --bg_main: #0a1f44;
+  --text_light: #fff;
+  --text_dark: #1e2432;
+  --button-grey: #edeef5;
+  --correct-green: #9aeabc;
+  --incorrect-red: #ff9393;
+  --red: #ff1e42;
+}
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* viewport height: (min-height: 1vh === 1% of the browser window’s height) */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Misc Styles */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* cursor: default, pointer, crosshair, text,wait, help, 
+   not-allowed, progress, move, nw-resize, cell, zoom-in, grab */
+
+/* Body Styles */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* .btn is for class='btn' */
+/* #btn is for id='btn' */
+
+body {
+  background:#262a2f;
+}
+
+.container {
+  padding: 25px 35px;
+  /* margin: 12%; */
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 10px;
+}
+.container p {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.container input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #494eea;
+  outline: 0;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border-radius: 5px;
+}
+
+.container button {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  outline: 0;
+  background: #181e1b;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 20px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+
+#imgBox {
+  width: 200px;
+  border-radius: 5px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s;
+}
+#imgBox img {
+  width: 100%;
+  padding: 10px;
+}
+#imgBox.show-img {
+  max-height: 300px;
+  margin: 10px auto;
+  border: 1px solid #d1d1d1;
+}
+
+/* INPUT ELEMENTS */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.custom-checkbox {
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+/* Hide the default checkbox */
+.custom-checkbox input[type='checkbox'] {
+  display: none;
+}
+
+.custom-checkbox input[type='checkbox'] + .checkmark {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.custom-checkbox input[type='checkbox']:checked + .checkmark {
+  background-color: #019f55;  
+}
+
+/* IMAGES */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
