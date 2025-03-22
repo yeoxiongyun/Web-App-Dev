@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'todo', url: '../todo/todo.html', image: `${IMAGES_DIR}todo.png` },
         { name: 'quiz', url: '../quiz/quiz.html', image: `${IMAGES_DIR}unknown.png` },
         { name: 'password', url: '../password/password.html', image: `${IMAGES_DIR}password.png` },
-        { name: 'cv', url: '../CV_web_app.html', image: `${IMAGES_DIR}humidity.png` },
+        { name: 'notes', url: '../notes/notes.html', image: `${IMAGES_DIR}notes.png` },
         { name: 'weather', url: '../weather/weather.html', image: `${IMAGES_DIR}lightning.png` },
         { name: 'cv', url: '../CV_web_app.html', image: `${IMAGES_DIR}search.png` },
         { name: 'weather', url: '../weather/weather.html', image: `${IMAGES_DIR}cloudy.png` },

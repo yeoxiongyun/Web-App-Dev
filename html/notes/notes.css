@@ -1,11 +1,12 @@
 /* HTML CSS */
 
+
 /* FONTS */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* normal weight == font-weight: 400; */
 /* medium weight == font-weight: 500; */
+@import url('../../fonts/fonts.css');
 /* –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 :root {
   --bg_main: #0a1f44;
   --text_light: #fff;
@@ -16,12 +17,8 @@
   --red: #ff1e42;
 }
 
-
-
 /* –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* viewport height: (min-height: 1vh === 1% of the browser window’s height) */
-
-
 
 * {
   margin: 0;
@@ -37,120 +34,83 @@
 
 
 
-
 /* Body Styles */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* .btn is for class='btn' */
 /* #btn is for id='btn' */
 
 body {
-  background:#002339;
-  color: #fff;
+  background:#e4fdb2;
+  color: #6e50ae;
 }
 
 .container {
-  margin: 12%;
-  width: 90%;
-  max-width: 700px;
+  margin: 5%;
+  width: 100%;
+  /* max-width: 700px; */
 }
 .container h1 {
-  font-weight: 500;
-  font-size: 45px;
+  position: relative;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
-.container h1 span {
-  color: #019f55;
-  border-bottom: 4px solid #019f55;
-  padding-bottom: 7px;
+.notes {
+  padding-top: 70px;
 }
-
-.container h2 {
-  padding-bottom: 20px;
-}
-
-.container button img {
-  width: 28px;
-  margin-right: 10px;
-}
-
 .container button {
-  border: 0;
-  outline: 0;
-  background: #181e1b;
+  background: #7fd721;
   color: #fff;
-  font-size: 22px;
-  font-weight: 300;
-  display: flex;
-  align-items: center;
-  padding: 16px 26px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.display {
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 30px;
-  background: #fff;
-  color: #333;
-  align-items: center;
-  justify-content: space-between;
-  padding: 26px 20px;
-  border-radius: 5px;
-  display: flex;
-}
-
-.display img {
-  height: 70px;
-  width: 70px;
-  cursor: pointer;
-}
-
-.display input {
-  border: 0;
-  outline: 0;
-  font-size: 24px;
-  width: 85%;
-}
-
-
-
-/* .btn {
-  background: #fff;
-  color: #222;
-  font-weight: 500;
-  width: 100%;
+  font-family: 'TheGoodPlace';
+  font-weight: medium;
+  font-size: 23px;
+  width: 25%;
   border: 1px solid #222;
-  padding: 10px;
-  margin: 10px 0;
-  text-align: left;
-  border-radius: 4px;
+  padding: 15px;
+  margin: 5px 5px;
+  text-align: center;
+  border-radius: 10px;
   cursor: pointer;
 }
-.btn:hover:not([disabled]) {
+
+.notes {
+  padding-top: 70px;
+}
+
+.input-box {
+  position: relative;
+  outline: 0;
+  color: #222;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 170px;
+  max-height: 300px;
+  width: 60%;
+  margin: 30px 10px;
+}
+
+.input-box img {
+  background-color: #fff;
+  width: 5%;
+  /* align-items: center; */
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 30px;
+}
+
+
+/* .btn:hover:not([disabled]) {
   background: #222;
   color: #fff;
 }
 .btn:disabled {
   cursor: not-allowed;
-}
+} */
 
 /* INPUT ELEMENTS */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.container label {
-  padding: 20px;
-  width: 70%;
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
-  font-size: 16px;
-}
-
-.container label input{
-  height: 20px;
-  display: inline-block;
-}
 
 .custom-checkbox {
   position: relative;
@@ -174,36 +134,4 @@ body {
 }
 .custom-checkbox input[type='checkbox']:checked + .checkmark {
   background-color: #019f55;  
-}
-/* .custom-checkbox input[type='checkbox']:checked + .checkmark::after {
-  display: block;
-  left: 2px;
-  bottom: 5px;
-  width: 13px;
-  height: 25px;
-  border: solid white;
-  border-width: 0 4px 4px 0;
-  transform: rotate(45deg);
-}
-.checkmark {
-  position: relative;
-}
-.checkmark::after {
-  content: '';
-  position: absolute;
-  display: none;
-} */
-
-
-/* IMAGES */
-/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.picture1 {
-  background-image: url('password.png');
-  background-size: cover;
-  background-position: center; /* centers the image within the section */
-  height: 100vh;
-  color: white;
-  display: flex; /* centers text */
-  justify-content: center; /* centers horizontally */
-  align-items: center; /* centers vertically */
 }

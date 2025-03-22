@@ -1,5 +1,15 @@
 /* HTML CSS */
 
+
+/* FONTS */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* normal weight == font-weight: 400; */
+/* medium weight == font-weight: 500; */
+
+@import url('../../fonts/fonts.css');
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
   /* --bg_main: #0a1f44;
   --text_light: #fff;
@@ -9,40 +19,6 @@
   --red: #ff1e42;
   --darkred: #c3112d;
   --orange: #ff8c00;
-}
-
-/* FONTS */
-/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* normal weight == font-weight: 400; */
-/* medium weight == font-weight: 500; */
-
-@font-face {
-  font-family: 'TheGoodPlace';
-  src: url('../../fonts/brandon-grotesque-regular.otf') format('opentype');
-  font-weight: normal; 
-  font-style: normal;
-}
-@font-face {
-  font-family: 'TheGoodPlace';
-  src: url('../../fonts/brandon-grotesque-medium.otf') format('opentype');
-  font-weight: medium;
-}
-@font-face {
-  font-family: 'TheGoodPlace';
-  src: url('../../fonts/brandon-grotesque-medium-italic.otf') format('opentype');
-  font-weight: medium;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'TheGoodPlace';
-  src: url('../../fonts/brandon-grotesque-bold.otf') format('opentype');
-  font-weight: bold;
-}
-@font-face {
-  font-family: 'TheGoodPlace';
-  src: url('../../fonts/brandon-grotesque-bold-italic.otf') format('opentype');
-  font-weight: bold;
-  font-style: italic;
 }
 
 /* –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -111,13 +87,13 @@ body {
   font-size: 30px;
   font-weight: bold;
   font-style: normal;
-  font-family: 'TheGoodPlace';
+  font-family: 'TheGoodPlace', sans-serif;
 }
 .introduction p {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: normal;
   font-style: italic;
-  font-family: 'TheGoodPlace';
+  font-family: 'TheGoodPlace', sans-serif;
 }
 
 /* Projects Carousel */

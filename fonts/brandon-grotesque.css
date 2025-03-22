@@ -1,0 +1,44 @@
+/* FONTS */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* normal weight == font-weight: 400; */
+/* medium weight == font-weight: 500; */
+
+/* Regular + Italic */
+@font-face {
+  font-family: 'TheGoodPlace';
+  src: url('./brandon-grotesque-regular.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TheGoodPlace';
+  src: url('./brandon-grotesque-regular-italic.otf') format('opentype');
+  font-weight: normal; 
+  font-style: italic;
+}
+
+/* Medium + Italic */
+@font-face {
+  font-family: 'TheGoodPlace';
+  src: url('./brandon-grotesque-medium.otf') format('opentype');
+  font-weight: medium;
+}
+@font-face {
+  font-family: 'TheGoodPlace';
+  src: url('./brandon-grotesque-medium-italic.otf') format('opentype');
+  font-weight: medium;
+  font-style: italic;
+}
+
+/* Bold + Italic */
+@font-face {
+  font-family: 'TheGoodPlace';
+  src: url('./brandon-grotesque-bold.otf') format('opentype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'TheGoodPlace';
+  src: url('./brandon-grotesque-bold-italic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
