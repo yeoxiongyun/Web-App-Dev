@@ -40,9 +40,16 @@ function createPassword() {
     passwordBox.value = password;
 }
 
-function copyPassword() {
-    passwordBox.select();
-    document.execCommand('copy');
+function copyPassword(event) {
+    // Find the nearest input element
+    var inputBox = event.target.closest('.display, .input-box')?.querySelector('input');
+    
+    // Modern clipboard API (navigator.clipboard.writeText)
+    navigator.clipboard.writeText(inputBox.value).then(function() {
+        console.log('Password copied to clipboard');
+    }).catch(function(error) {
+        console.error('Failed to copy text: ', error);
+    });
 }
 
 function checkCheckbox() {
@@ -62,8 +69,7 @@ document.getElementById('uppercase').addEventListener('click', checkCheckbox);
 document.getElementById('lowercase').addEventListener('click', checkCheckbox);
 document.getElementById('numbers').addEventListener('click', checkCheckbox);
 document.getElementById('symbols').addEventListener('click', checkCheckbox);
-
-
+document.getElementById('password-img2').addEventListener('click', copyPassword);
 
 // document.addEventListener('DOMContentLoaded', () => {
 
