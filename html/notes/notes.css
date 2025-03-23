@@ -52,12 +52,13 @@ body {
 .container h1 {
   position: relative;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .notes {
-  padding-top: 70px;
+  padding-top: 10px;
 }
+
 .container button {
   background: #7fd721;
   color: #fff;
@@ -66,15 +67,12 @@ body {
   font-size: 23px;
   width: 25%;
   border: 1px solid #222;
-  padding: 15px;
+  padding: 5px;
   margin: 5px 5px;
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
-}
-
-.notes {
-  padding-top: 70px;
+  min-width: 180px;
 }
 
 .input-box {
@@ -99,15 +97,6 @@ body {
   right: 15px;
   border-radius: 30px;
 }
-
-
-/* .btn:hover:not([disabled]) {
-  background: #222;
-  color: #fff;
-}
-.btn:disabled {
-  cursor: not-allowed;
-} */
 
 /* INPUT ELEMENTS */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––– */
