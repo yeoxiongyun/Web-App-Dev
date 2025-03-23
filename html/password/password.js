@@ -65,21 +65,23 @@ document.getElementById('symbols').addEventListener('click', checkCheckbox);
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
+// document.addEventListener('DOMContentLoaded', () => {
 
 var pass = document.getElementById('custom-password');
 var msg = document.getElementById('message');
 var str = document.getElementById('strength');
+
 pass.addEventListener('input', () => {
     if (pass.value.length > 0) {
         msg.style.display = 'block';
     }
     else {
         msg.style.display = 'none';
+        pass.style.borderColor = '#ccc';
     }
 
     // Password Strength
-    if (pass.value.length < 6) {
+    if (pass.value.length > 0 && pass.value.length < 6) {
         str.innerHTML = 'weak';
         pass.style.borderColor = '#ff5925';
         msg.style.color = '#ff5925';
@@ -94,6 +96,4 @@ pass.addEventListener('input', () => {
         pass.style.borderColor = '#26d730';
         msg.style.color = '#26d730';
     }
-})
-
 })
