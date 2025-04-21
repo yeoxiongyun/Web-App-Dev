@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'password', url: '../password/password.html', image: `${IMAGES_DIR}password.png` },
         { name: 'notes', url: '../notes/notes.html', image: `${IMAGES_DIR}notes.png` },
         { name: 'qr-code', url: '../qr-code/qr-code.html', image: `${IMAGES_DIR}qr-code.png` },
-        { name: 'weather', url: '../weather/weather.html', image: `${IMAGES_DIR}cloudy.png` },
+        { name: 'text-to-speech', url: '../tts/tts.html', image: `${IMAGES_DIR}text-to-speech.png` },
         { name: 'cv', url: '../CV_web_app.html', image: `${IMAGES_DIR}fog.png` }
     ];
 

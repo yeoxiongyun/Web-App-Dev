@@ -1,0 +1,243 @@
+/* HTML CSS 
+
+   JS Result Skip Results Iframe
+/* RESET STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --bg_main: #0a1f44;
+  --text_light: #fff;
+  --text_med: #53627c;
+  --text_dark: #1e2432;
+  --red: #ff1e42;
+  --darkred: #c3112d;
+  --orange: #ff8c00;
+  /* --images-dir: url('images/'); */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+.hero {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #010758, #490d61);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  
+}
+.hero h1 span {
+  color: #ff2963;
+}
+textarea {
+  width: 600px;
+  height: 250px;
+  background: #403d84;
+  font-size: 15px;
+  border: 0;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  resize: none;
+  margin-bottom: 30px;
+}
+textarea::placeholder {
+  font-size: 16px;
+  color: #ddd
+}
+.row{
+  width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+button {
+  cursor: pointer;
+  background: #ff2963;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 35px;
+  border: 0;
+  outline: 0
+}
+/* button, input {
+  border: none;
+  background: none;
+  outline: none;
+  color: inherit;
+} */
+select {
+  flex: 1; /* use entire row space */
+  height: 50px;
+  background: #403d84;
+  color: #fff;
+  font-size: 16px; 
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+  padding: 0 20px;
+  background-size: 15px;
+}
+
+.page-title {
+  text-align: center;
+  color: var(--text_med);
+}
+
+.card{
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(134deg, #bbb2f3, #2b14c1); /* 4f32ff */
+  color: #5b548a;
+  margin: 50px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.error{
+  text-align: left;
+  font-size: 14px;
+  color: #f2f4f4;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: none;
+}
+
+/* MY ICONS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.search{
+  border: 0;
+  outline: 0;
+  /* height: 100%;
+  width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input{
+  flex: 1;
+  background: #ebfffc;
+  padding: 10px 25px;
+  border-radius: 30px;
+  margin-right: 16px;
+  font-size: 18px;
+  height: 60px;
+  width: 80%;
+}
+
+.search button{
+  background: #f2f4f4;  /*ebfffc */
+  border-radius: 100%;
+  /* height: 15%;
+  width: 15%; */
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.search button img{
+  border-radius: 100%;
+}
+
+
+.details {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+/* SECTION #1
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.top-banner {
+  color: var(-text_light);
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 4rem;
+  letter-spacing: 0.02em;
+  padding: 0 0 30px 0;
+}
+
+/* .top-banner form {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.top-banner form input {
+  font-size: 2rem;
+  height: 40px;
+  padding: 5px 5px 10px;
+  border-bottom: 1px solid;
+}
+
+.top-banner form input::placeholder {
+  color: currentColor; 
+}
+
+.top-banner form button {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding: 15px 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+  background: var(--red);
+  transition: background 0.3s ease-in-out;
+}
+.top-banner form button:hover {
+  background: var(--darkred);
+}
+
+.top-banner form .msg {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  max-width: 450px;
+  min-height: 40px;
+} */
+
+
+
+/* FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer {
+  text-align: right;
+  font-size: 1rem;
+  color: var(--text_med);
+  margin-bottom: 40px;
+}
+
+.page-footer span {
+  color: var(--red);
+}
